@@ -255,3 +255,10 @@ header{
     /* border: 1px solid green; */
     align-items: center;
 }
+.footer{
+    background-color: #070211 ;
+}
+.last-page{
+    border: 1px solid #FF0000;
+    margin: 100px 100px;
+}
