@@ -1,11 +1,13 @@
 
 header{
     background-image: url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 1320px; */
+    width: auto 0;
     height: 600px;
     margin: 50px 90px;
 }
@@ -66,8 +68,11 @@ header{
 
 .section-2{
     background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
     margin: 30px 100px;
     height: 600px;
+    width: auto 0;
     background-repeat: no-repeat;
     justify-content: center;
 }
@@ -84,14 +89,52 @@ header{
 .section-2-text h1{
     font-size: 64px ;
     margin-bottom: 0;
+    font-family: "Rubik", serif;
+    font-weight: 400;
 }
 .section-2-text p{
     font-size: 18px;
 }
-..section-2-text h3{
+.section-2-text h3{
     font-size: 20px;
     font-weight: 800;
 }
 .section-2-container-img{
     padding: 60px 50px 0 0;
+}
+
+
+.section-3{
+    background: linear-gradient(#ff000036,#e405050b) ;
+    margin: 50px 100px;
+    border-radius: 16px;
+    justify-items:center;
+    height: 480px;
+    padding-top: 150px;
+
+}
+.section-3-container{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-family: "Inter", serif;
+    padding: 50px 20px;
+}
+.section-3-container h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+.section-3-container button{
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.section-3-container span{
+    color: #FF0000;
 }
