@@ -10,6 +10,7 @@ header{
     width: auto 0;
     height: 600px;
     margin: 50px 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.619));
 }
 
 .banner-text{
@@ -24,6 +25,7 @@ header{
 .banner-text h1{
     font-size: 72px;
     margin: 0;
+    font-family: "Rubik", serif;
 }
 
 
