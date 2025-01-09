@@ -106,7 +106,7 @@ header{
 
 .section-3{
     background: linear-gradient(#ff000036,#e405050b) ;
-    margin: 50px 100px;
+    margin: 80px 100px;
     border-radius: 16px;
     justify-items:center;
     height: 480px;
@@ -137,4 +137,119 @@ header{
 }
 .section-3-container span{
     color: #FF0000;
+}
+
+
+.section-4{
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-4 h3{
+    font-size: 24px;
+    color: #FF0000;
+    
+}
+.section-4 h1{
+    font-size: 48px;
+    font-family: "Rubik", serif;
+    font-weight: 500;
+    margin-top: 0;
+    
+}
+.section-4 p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", serif;
+}
+.drop-img{
+    margin: 0 150px 0 50px;
+}
+.section-4 span{
+    color: #FF0000;
+}
+
+
+
+
+.section-5 {
+    margin: 100px 100px;
+    border: 2px solid #FF0000;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5-text{
+    text-align: center;
+}
+
+
+
+
+
+.section-6{
+    margin: 100px 100px;
+}
+.section-6 h4{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    margin: 0;
+
+}
+
+.section-6 h1{
+    font-size: 48px;
+    font-family: "Rubik", serif;
+    margin: 0;
+}
+.section-6 p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.section-7{
+    background-color: #ff000019;
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-7 #email-icon{
+    margin-top: 50px;
+}
+.section-7 h1{
+    font-size: 48px;
+    font-family: "Rubik", serif;
+    color: #070211;
+}
+.section-7 p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0px 200px 50px 200px;
+}
+.section-7 div input{
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 18px 40px ;
+    font-size: 20px;
+}
+.section-7 div button{
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 18px 20px;
+    border-radius: 0 50px 50px 0;
+}
+.btn-email{
+    margin-bottom: 50px;
+    /* border: 1px solid green; */
+    align-items: center;
 }
